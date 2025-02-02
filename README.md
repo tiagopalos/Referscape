@@ -78,27 +78,6 @@ Environment Variables : Securely manage sensitive data using .env files.
 Project Structure
 Here’s an overview of the project folder structure:
 
-src/
-├── Components/
-│   ├── Navbar.tsx       // Navigation bar with search functionality
-│   ├── SearchBar.tsx    // Handles search input
-│   ├── Pin.tsx          // Renders individual pins
-│   ├── PinModal.tsx     // Displays detailed information about a selected pin
-├── services/
-│   ├── api.ts           // Handles API calls to Pexels
-├── types/
-│   ├── PinTypes.ts      // Defines the raw API response structure
-├── utils/
-│   ├── transformPin.ts  // Utility for transforming API responses
-├── Pages/
-│   ├── Home.tsx         // Home page component
-│   ├── SearchResults.tsx // Fetches and displays search results
-├── App.jsx              // Main application component with routing
-├── .env                 // Store environment variables here
-├── .gitignore           // Ignore unnecessary files
-├── tsconfig.json        // TypeScript configuration
-
-
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
